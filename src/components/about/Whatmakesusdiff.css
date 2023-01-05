@@ -1,0 +1,25 @@
+.wmud {
+  height: 750px;
+}
+.wmudImg {
+  width: 100%;
+  position: absolute;
+}
+.wmudHeading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin-left: 24vw;
+  padding-top: 12vh;
+  color: white;
+  font-size: larger;
+}
+.wmudText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: 19vw;
+  margin-top: 10vh;
+}

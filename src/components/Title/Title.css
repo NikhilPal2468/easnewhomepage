@@ -1,0 +1,26 @@
+.title {
+  height: 420px;
+}
+.title img {
+  width: 100%;
+  position: absolute;
+}
+
+.titleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 420px;
+  width: 289px;
+  margin: 10px 119px;
+  padding: 0px 11px;
+  color: white;
+}
+.titleSmallText button {
+  margin-top: 52px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+}

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  font-weight: 600;
 }
 
 .App-logo {
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footerContactDetails {
+  display: flex;
+  /* margin: 10px; */
+  justify-content: space-around;
+  align-items: self-end;
+}
+.footerContactDetailsHeading {
+  display: flex;
+}
+.footerContactDetailsLeft {
+  color: #2e3192;
+  margin-bottom: 15px;
+}
+.footerContactDetailsLeft a {
+  color: #2e3192;
+  text-decoration: none;
+}
+.footerContactDetailsLeft h3 {
+  width: fit-content;
+  border-bottom: 2px solid #1fb25a;
+  padding-bottom: 4px;
+}
+/* .footerContactDetailsRight {
+  width: 100px;
+} */
+.footerContactDetailsRight img {
+  width: 220px;
+}
+
+.lastgreenline {
+  margin-top: 15px;
+  height: 15px;
+  background-color: #1fb25a;
 }

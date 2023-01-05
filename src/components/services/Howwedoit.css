@@ -1,0 +1,51 @@
+.howwedoit {
+  transform: translateX(17%);
+  width: 76%;
+  height: 375px;
+}
+
+.howwedoitFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e3192;
+  margin: 20px 1px;
+}
+.howwedoitSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.howwedoitSecondCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.howwedoitSecondCircleOut {
+  width: 125px;
+  height: 125px;
+  background: linear-gradient(90deg, #2e3192 0%, #1fb25a 100%);
+  border-radius: 100px;
+  rotate: -45deg;
+  position: absolute;
+}
+.howwedoitSecondCircleIn {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 100px;
+  position: absolute;
+  color: #1fb25a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.howwedoitSecondText {
+  margin: 10px;
+  position: relative;
+  top: 125px;
+  padding: 10px 43px;
+}

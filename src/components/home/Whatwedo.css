@@ -1,0 +1,40 @@
+.whatwedo {
+  display: flex;
+  flex-direction: column;
+}
+.wwdFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10px;
+}
+.wwdFirst h1 {
+  color: #2e3192;
+}
+.wwdFirst center {
+  width: 552px;
+}
+.wwdSecond {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+.wwdSecondLeft {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.wwdSecondLeft div {
+  flex: 1;
+  /* margin: 10px; */
+}
+.wwdSecondRight {
+  /* background: url(../../assets/whatwedo.png) no-repeat center center / cover; */
+  flex: 1;
+}
+.wwdSecondRight img {
+  width: 100%;
+}

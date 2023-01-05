@@ -1,0 +1,55 @@
+.ctnz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+}
+.ctnz h1 {
+  position: relative;
+  color: #2e3192;
+}
+.ctnzText {
+  display: flex;
+  position: relative;
+  margin: 10px 100px;
+  line-height: 25px;
+}
+.ctnzTextLeft {
+  flex: 1;
+  color: #1fb25a;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+.ctnzTextRight {
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 120px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.ctnzImg {
+  width: 100%;
+  position: absolute;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 4;
+  margin-top: 20vw;
+  margin-left: 124px;
+  margin-right: 124px;
+}
+.partnersText {
+  display: flex;
+}
+.partnersTextLeft {
+  flex: 1;
+}
+.partnersTextRight {
+  flex: 1;
+  display: flex;
+}

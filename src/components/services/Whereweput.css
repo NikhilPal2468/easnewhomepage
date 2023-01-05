@@ -1,0 +1,44 @@
+.wwpe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wwpe h1 {
+  color: #2e3192;
+}
+
+.wwpeText {
+  display: flex;
+  position: relative;
+  margin: 10px 100px;
+  line-height: 25px;
+}
+.wwpeTextLeft {
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+.wwpeTextRight {
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 120px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.servicesStrip {
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+.servicesStripText {
+  position: relative;
+  width: 376px;
+  color: white;
+  margin-left: 19vw;
+}
+.servicesStrip img {
+  width: 100%;
+  position: absolute;
+}
